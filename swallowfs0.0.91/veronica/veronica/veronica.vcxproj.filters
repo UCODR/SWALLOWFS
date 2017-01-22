@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cauchy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cauchy_org.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EMBR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EMSR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\encoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EVENODD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FMBR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FMSR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\galois.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hamming.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HoVer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liberation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MBR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MDR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MSR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\profile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RAID5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RAID6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RDP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\reed_sol_classic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rscode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system_com.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WEAVER.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\network.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STAR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GEN_RDP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\update_opt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FILELAYER.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\update_API.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test_update_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test_update_sch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AONTRS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CAONTRS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PAONTRS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCAONTRS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AONTRS_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PAONTRS_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CAONTRS_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCAONTRS_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cauchy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cauchy_org.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\decoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EMBR.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EMSR.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\encoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EVENODD.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FMBR.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FMSR.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\galois.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_define.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hamming.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HoVer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liberation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\matrix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MBR.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MDR.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MSR.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Pcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\profile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RAID5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RAID6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RDP.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reed_sol_classic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rscode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system_com.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WEAVER.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\STAR.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GEN_RDP.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\update_opt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\other.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mysql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FILELAYER.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\update_API.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test_update_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test_update_sch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AONTRS.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CAONTRS.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PAONTRS.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PCAONTRS.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trace.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AONTRS_test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PAONTRS_test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CAONTRS_test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PCAONTRS_test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3349AE2B-E7FF-4C63-9D22-D91BE220D3F8}</ProjectGuid>
+    <RootNamespace>veronica</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>F:\openssl_out32dll\inc32;$(SolutionDir)include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include</IncludePath>
+    <LibraryPath>F:\openssl_out32dll\inc32;$(SolutionDir)lib;$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSdkDir)lib\x64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AONTRS.h" />
+    <ClInclude Include="..\AONTRS_test.h" />
+    <ClInclude Include="..\CAONTRS.h" />
+    <ClInclude Include="..\CAONTRS_test.h" />
+    <ClInclude Include="..\mysql.h" />
+    <ClInclude Include="..\cauchy.h" />
+    <ClInclude Include="..\cauchy_org.h" />
+    <ClInclude Include="..\decoder.h" />
+    <ClInclude Include="..\EMBR.h" />
+    <ClInclude Include="..\EMSR.h" />
+    <ClInclude Include="..\encoder.h" />
+    <ClInclude Include="..\EVENODD.h" />
+    <ClInclude Include="..\file.h" />
+    <ClInclude Include="..\FILELAYER.h" />
+    <ClInclude Include="..\FMBR.h" />
+    <ClInclude Include="..\FMSR.h" />
+    <ClInclude Include="..\galois.h" />
+    <ClInclude Include="..\GEN_RDP.h" />
+    <ClInclude Include="..\global_define.h" />
+    <ClInclude Include="..\hamming.h" />
+    <ClInclude Include="..\HoVer.h" />
+    <ClInclude Include="..\liberation.h" />
+    <ClInclude Include="..\matrix.h" />
+    <ClInclude Include="..\MBR.h" />
+    <ClInclude Include="..\MDR.h" />
+    <ClInclude Include="..\MSR.h" />
+    <ClInclude Include="..\network.h" />
+    <ClInclude Include="..\other.h" />
+    <ClInclude Include="..\PAONTRS.h" />
+    <ClInclude Include="..\PAONTRS_test.h" />
+    <ClInclude Include="..\PCAONTRS.h" />
+    <ClInclude Include="..\PCAONTRS_test.h" />
+    <ClInclude Include="..\Pcode.h" />
+    <ClInclude Include="..\profile.h" />
+    <ClInclude Include="..\RAID5.h" />
+    <ClInclude Include="..\RAID6.h" />
+    <ClInclude Include="..\RDP.h" />
+    <ClInclude Include="..\reed_sol_classic.h" />
+    <ClInclude Include="..\rscode.h" />
+    <ClInclude Include="..\STAR.h" />
+    <ClInclude Include="..\system_com.h" />
+    <ClInclude Include="..\test.h" />
+    <ClInclude Include="..\test_update_data.h" />
+    <ClInclude Include="..\test_update_sch.h" />
+    <ClInclude Include="..\tool.h" />
+    <ClInclude Include="..\trace.h" />
+    <ClInclude Include="..\update_API.h" />
+    <ClInclude Include="..\update_opt.h" />
+    <ClInclude Include="..\WEAVER.h" />
+    <ClInclude Include="..\Xcode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AONTRS.c" />
+    <ClCompile Include="..\AONTRS_test.c" />
+    <ClCompile Include="..\CAONTRS.c" />
+    <ClCompile Include="..\CAONTRS_test.c" />
+    <ClCompile Include="..\cauchy.c" />
+    <ClCompile Include="..\cauchy_org.c" />
+    <ClCompile Include="..\decoder.c" />
+    <ClCompile Include="..\EMBR.c" />
+    <ClCompile Include="..\EMSR.c" />
+    <ClCompile Include="..\encoder.c" />
+    <ClCompile Include="..\EVENODD.c" />
+    <ClCompile Include="..\file.c" />
+    <ClCompile Include="..\FILELAYER.c" />
+    <ClCompile Include="..\FMBR.c" />
+    <ClCompile Include="..\FMSR.c" />
+    <ClCompile Include="..\galois.c" />
+    <ClCompile Include="..\GEN_RDP.c" />
+    <ClCompile Include="..\global_define.c" />
+    <ClCompile Include="..\hamming.c" />
+    <ClCompile Include="..\HoVer.c" />
+    <ClCompile Include="..\liberation.c" />
+    <ClCompile Include="..\matrix.c" />
+    <ClCompile Include="..\MBR.c" />
+    <ClCompile Include="..\MDR.c" />
+    <ClCompile Include="..\MSR.c" />
+    <ClCompile Include="..\mysql.c" />
+    <ClCompile Include="..\network.c" />
+    <ClCompile Include="..\other.c" />
+    <ClCompile Include="..\PAONTRS.c" />
+    <ClCompile Include="..\PAONTRS_test.c" />
+    <ClCompile Include="..\PCAONTRS.c" />
+    <ClCompile Include="..\PCAONTRS_test.c" />
+    <ClCompile Include="..\Pcode.c" />
+    <ClCompile Include="..\profile.c" />
+    <ClCompile Include="..\RAID5.c" />
+    <ClCompile Include="..\RAID6.c" />
+    <ClCompile Include="..\RDP.c" />
+    <ClCompile Include="..\reed_sol_classic.c" />
+    <ClCompile Include="..\rscode.c" />
+    <ClCompile Include="..\STAR.c" />
+    <ClCompile Include="..\system_com.c" />
+    <ClCompile Include="..\test.c" />
+    <ClCompile Include="..\test_update_data.c" />
+    <ClCompile Include="..\test_update_sch.c" />
+    <ClCompile Include="..\tool.c" />
+    <ClCompile Include="..\trace.c" />
+    <ClCompile Include="..\update_API.c" />
+    <ClCompile Include="..\update_opt.c" />
+    <ClCompile Include="..\WEAVER.c" />
+    <ClCompile Include="..\Xcode.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
