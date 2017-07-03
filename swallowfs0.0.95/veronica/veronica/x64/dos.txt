@@ -1,0 +1,2 @@
+SUBST [drive1 [drive2]path]
+net use c: //Â·¾¶
